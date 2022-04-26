@@ -40,3 +40,17 @@ Obviously, you are allowed to use any IDE you like but we tend to use:
 ### DOs and DONTs
 * Feel free to use any third party libraries (nuget or npm) you see fitting.
 * Dont go all the way implementing everything production-ready. A nice proof of concept of the above task is enough as long you are ready to discuss possible improvements and/or alternative solutions.
+
+### Description
+Azureti Blob Storage, an emulator for local development, was used to save the audio files.
+In my opinion this is the best way to store a large number of files and access them quickly.
+All images: MSSQL and Azureti added to docker-compose.
+
+Follow these steps to start your project: 
+1. Up the containers docker-compose up
+2. Add migrations
+
+After that the application can be used.
+
+I used the music-metadata-browse library to get the metadata.
+This will get all the available tags and data for the uploaded track.
