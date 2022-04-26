@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  logcast.recruitment.web:
+    image: ${DOCKER_REGISTRY-}logcastrecruitmentweb
+    build:
+      context: .
+      dockerfile: Logcast.Recruitment.Web/Dockerfile
