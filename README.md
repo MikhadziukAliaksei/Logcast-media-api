@@ -48,7 +48,7 @@ All images: MSSQL and Azureti added to docker-compose.
 
 Follow these steps to start your project: 
 1. Up the containers docker-compose up
-2. Add migrations
+2. Update-Database in package manager
 
 After that the application can be used.
 
